@@ -1,0 +1,2 @@
+
+tree.delete(10)
