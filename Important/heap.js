@@ -1,7 +1,7 @@
 class MinHeap {
   constructor() {
     this.heap = [];
-  }
+  } 
 
   buildHeap(arr) {
     this.heap = [...arr];

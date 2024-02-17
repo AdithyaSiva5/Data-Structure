@@ -7,14 +7,14 @@ class Node{
 }
 class Tree{
     constructor(){
-        this.root = null;
+        this.root = null;   
     }
     isEmpty(){
         return this.root === null;
     }
     insert(value){
         const node = new Node(value);
-        if (this.root == null){
+        if (this.root == null){ 
             this.root = node
         }else{
             this.insertNode(this.root,node)
@@ -108,7 +108,7 @@ class Tree{
             root.left = this.deleteNode(root.left,value)
         }else if (value > root.value){
             root.right = this.deleteNode(root.right, value)
-        }else{
+        }else{  
             if(!root.left && !root.right){
                 return null;
             }
